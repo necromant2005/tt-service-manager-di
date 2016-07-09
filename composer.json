@@ -15,7 +15,7 @@
     "repositories": [
     ],
     "require": {
-        "php": ">=5.5",
+        "php": ">=7",
         "necromant2005/tt-test": "*",
 
         "zendframework/zend-mvc": "*"
