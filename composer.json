@@ -1,9 +1,9 @@
 {
-    "name": "necromant2005/tt-service-manager",
+    "name": "necromant2005/tt-service-manager-di",
     "type": "library",
     "description": "service manager  dependency injections factories",
     "keywords": ["service", "manager", "di", "factory"],
-    "homepage": "https://github.com/necromant2005/tt-service-manager",
+    "homepage": "https://github.com/necromant2005/tt-service-manager-di",
     "authors": [
         {
             "name": "Rostislav Mykhajliw",
