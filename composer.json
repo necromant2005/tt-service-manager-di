@@ -1,0 +1,28 @@
+{
+    "name": "necromant2005/tt-service-manager",
+    "type": "library",
+    "description": "service manager  dependency injections factories",
+    "keywords": ["service", "manager", "di", "factory"],
+    "homepage": "https://github.com/necromant2005/tt-service-manager",
+    "authors": [
+        {
+            "name": "Rostislav Mykhajliw",
+            "email": "necromant2005@gmail.com",
+            "homepage": "https://github.com/necromant2005",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+    ],
+    "require": {
+        "php": ">=5.5",
+        "necromant2005/tt-test": "*",
+
+        "zendframework/zend-mvc": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Twee\\": "src/Twee"
+        }
+    }
+}
