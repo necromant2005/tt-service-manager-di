@@ -29,7 +29,7 @@ class DependencyInjectionTest extends TestCaseController
         ]);
 
         $factory = new DependencyInjection();
-        $instance = $factory->__invoke($container, 'ConstructMock', 'Twee\Controller\AbstractFactory\DependencyInjectionTest\ConstructMock');
+        $instance = $factory->__invoke($container, 'Twee\Controller\AbstractFactory\DependencyInjectionTest\ConstructMock');
         $this->assertEquals([$container, 'abc'], $instance->getVars());
     }
 }

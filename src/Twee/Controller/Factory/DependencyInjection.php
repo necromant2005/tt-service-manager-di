@@ -10,8 +10,8 @@ class DependencyInjection
 {
     use ContainerVersionTrait;
 
-    public function __invoke(ServiceLocatorInterface $serviceLocator, $name, $requestedName)
+    public function __invoke(ServiceLocatorInterface $serviceLocator, $requestedName)
     {
-        return (new FactoryDependencyInjection())->__invoke($serviceLocator, $name, $requestedName);
+        return (new FactoryDependencyInjection())->__invoke($serviceLocator, $requestedName, $requestedName);
     }
 }
