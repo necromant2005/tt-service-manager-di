@@ -1,6 +1,6 @@
 <?php
 
-namespace Twee\View\Helper\Factory;
+namespace Twee\ServiceManager\Factory\View\Helper;
 
 use Twee\ServiceManager\Factory\ServiceLocator as FactoryServiceLocator;
 use Zend\ServiceManager\ServiceLocatorInterface;
