@@ -12,7 +12,7 @@ class Factory
     /**
      * {@inheritdoc}
      */
-    public function __invoke(ContainerInterface $container, $requestedName, array $options = null)
+    public function __invoke(ContainerInterface $container, $requestedName)
     {
         $config = $container->get('config')['di']['instance'];
         if (!array_key_exists($requestedName, $config)) {

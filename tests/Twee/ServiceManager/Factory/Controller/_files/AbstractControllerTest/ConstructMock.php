@@ -1,6 +1,6 @@
 <?php
 
-namespace Twee\Controller\AbstractFactory\DependencyInjectionTest;
+namespace Twee\ServiceManager\Factory\Controller\AbstractControllerTest;
 
 class ConstructMock
 {

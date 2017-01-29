@@ -17,7 +17,6 @@
     "require": {
         "php": ">=7",
         "necromant2005/tt-test": "*",
-
         "zendframework/zend-mvc": "*"
     },
     "autoload": {

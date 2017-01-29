@@ -4,10 +4,10 @@ namespace Twee\ServiceManager\Factory;
 
 use Interop\Container\ContainerInterface;
 
-class DependencyInjection
+class ServiceLocator
 {
     public function __invoke(ContainerInterface $container, $requestedName)
     {
-        return (new Factory())->__invoke($container, $requestedName);
+        return new $requestedName($container);
     }
 }

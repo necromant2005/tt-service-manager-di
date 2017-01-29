@@ -1,6 +1,6 @@
 <?php
 
-namespace Twee\Controller\Plugin\Factory;
+namespace Twee\ServiceManager\Factory\View\Helper;
 
 use Test\Framework\Environment\Stub\ServiceManager\ServiceManager;
 use Test\Framework\TestCase\TestCase;
@@ -14,7 +14,7 @@ class DependencyInjectionTest extends TestCase
         $container->set('config', [
             'di' => [
                 'instance' => [
-                    'Twee\Controller\AbstractFactory\DependencyInjectionTest\ConstructMock' => [
+                    'Twee\ServiceManager\Factory\Controller\AbstractControllerTest\ConstructMock' => [
                         'injections' => [
                             'Test\Framework\Environment\Stub\ServiceManager\ServiceManager',
                         ],
@@ -27,7 +27,7 @@ class DependencyInjectionTest extends TestCase
         ]);
 
         $factory = new DependencyInjection();
-        $instance = $factory->__invoke($container, 'ConstructMock', 'Twee\Controller\AbstractFactory\DependencyInjectionTest\ConstructMock');
+        $instance = $factory->__invoke($container, 'Twee\ServiceManager\Factory\Controller\AbstractControllerTest\ConstructMock');
         $this->assertEquals([$container, 'abc'], $instance->getVars());
     }
 }

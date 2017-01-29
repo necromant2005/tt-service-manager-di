@@ -1,22 +1,21 @@
 <?php
 
-namespace Twee\Controller\Factory;
+namespace Twee\ServiceManager\Factory\Controller;
 
+use Twee\ServiceManager\Factory\DependencyInjection;
 use Test\Framework\Environment\Stub\ServiceManager\ServiceManager;
-use Test\Framework\TestCase\Controller as TestCaseController;
+use Test\Framework\TestCase\TestCase;
 
-require_once __DIR__ . '/../AbstractFactory/_files/DependencyInjectionTest/ConstructMock.php';
-
-class DependencyInjectionTest extends TestCaseController
+class DependencyInjectionTest extends TestCase
 {
-    public function testCan()
+    public function test()
     {
         $container = new ServiceManager();
         $container->set('Test\Framework\Environment\Stub\ServiceManager\ServiceManager', $container);
         $container->set('config', [
             'di' => [
                 'instance' => [
-                    'Twee\Controller\AbstractFactory\DependencyInjectionTest\ConstructMock' => [
+                    'Twee\ServiceManager\Factory\Controller\AbstractControllerTest\ConstructMock' => [
                         'injections' => [
                             'Test\Framework\Environment\Stub\ServiceManager\ServiceManager',
                         ],
@@ -29,7 +28,7 @@ class DependencyInjectionTest extends TestCaseController
         ]);
 
         $factory = new DependencyInjection();
-        $instance = $factory->__invoke($container, 'Twee\Controller\AbstractFactory\DependencyInjectionTest\ConstructMock');
+        $instance = $factory->__invoke($container, 'Twee\ServiceManager\Factory\Controller\AbstractControllerTest\ConstructMock');
         $this->assertEquals([$container, 'abc'], $instance->getVars());
     }
 }
