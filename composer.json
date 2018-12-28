@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": ">=7.1",
-        "necromant2005/tt-test": "*",
+        "truesocialmetrics/test-environment": "*",
         "zendframework/zend-mvc": "*"
     },
     "autoload": {

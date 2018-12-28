@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "46a10fa6e301ee32cf56989e8697f103",
+    "content-hash": "3a794e1261f2758845c0e6435aafb079",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -36,58 +36,6 @@
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
             "time": "2017-02-14T19:40:03+00:00"
-        },
-        {
-            "name": "necromant2005/tt-test",
-            "version": "3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/necromant2005/tt-test.git",
-                "reference": "6ff3de66ec8d47d5e501447407c5e883d0e1bb2c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/necromant2005/tt-test/zipball/6ff3de66ec8d47d5e501447407c5e883d0e1bb2c",
-                "reference": "6ff3de66ec8d47d5e501447407c5e883d0e1bb2c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7",
-                "zendframework/zend-cache": "*",
-                "zendframework/zend-eventmanager": "*",
-                "zendframework/zend-http": "*",
-                "zendframework/zend-mvc": "*",
-                "zendframework/zend-servicemanager": "*",
-                "zendframework/zend-session": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Test\\": "src/Test"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Rostislav Mykhajliw",
-                    "email": "necromant2005@gmail.com",
-                    "homepage": "https://github.com/necromant2005",
-                    "role": "Developer"
-                }
-            ],
-            "description": "zf test environment",
-            "homepage": "https://github.com/necromant2005/tt-test",
-            "keywords": [
-                "environment",
-                "test",
-                "test case",
-                "zf",
-                "zf2"
-            ],
-            "time": "2017-04-20T04:30:01+00:00"
         },
         {
             "name": "psr/cache",
@@ -231,6 +179,58 @@
                 "simple-cache"
             ],
             "time": "2017-10-23T01:57:42+00:00"
+        },
+        {
+            "name": "truesocialmetrics/test-environment",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/truesocialmetrics/test-environment.git",
+                "reference": "560f5dd870f8e39b7691c280dd29efe35f6189a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/truesocialmetrics/test-environment/zipball/560f5dd870f8e39b7691c280dd29efe35f6189a2",
+                "reference": "560f5dd870f8e39b7691c280dd29efe35f6189a2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7",
+                "zendframework/zend-cache": "*",
+                "zendframework/zend-eventmanager": "*",
+                "zendframework/zend-http": "*",
+                "zendframework/zend-mvc": "*",
+                "zendframework/zend-servicemanager": "*",
+                "zendframework/zend-session": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Test\\": "src/Test"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rostislav Mykhajliw",
+                    "email": "necromant2005@gmail.com",
+                    "homepage": "https://github.com/necromant2005",
+                    "role": "Developer"
+                }
+            ],
+            "description": "zf test environment",
+            "homepage": "https://github.com/truesocialmetrics/test-environment",
+            "keywords": [
+                "environment",
+                "test",
+                "test case",
+                "zf",
+                "zf2"
+            ],
+            "time": "2018-12-28T14:46:56+00:00"
         },
         {
             "name": "zendframework/zend-cache",
