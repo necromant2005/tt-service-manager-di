@@ -1,9 +1,9 @@
 {
-    "name": "necromant2005/tt-service-manager-di",
+    "name": "truesocialmetrics/service-manager-di",
     "type": "library",
     "description": "service manager  dependency injections factories",
     "keywords": ["service", "manager", "di", "factory"],
-    "homepage": "https://github.com/necromant2005/tt-service-manager-di",
+    "homepage": "https://github.com/truesocialmetrics/service-manager-di",
     "authors": [
         {
             "name": "Rostislav Mykhajliw",
@@ -15,7 +15,7 @@
     "repositories": [
     ],
     "require": {
-        "php": ">=7",
+        "php": ">=7.1",
         "necromant2005/tt-test": "*",
         "zendframework/zend-mvc": "*"
     },
