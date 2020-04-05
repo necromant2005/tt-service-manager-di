@@ -15,9 +15,9 @@
     "repositories": [
     ],
     "require": {
-        "php": ">=7.1",
+        "php": ">=7.4",
         "truesocialmetrics/test-environment": "*",
-        "zendframework/zend-mvc": "*"
+        "laminas/laminas-mvc": "*"
     },
     "autoload": {
         "psr-4": {

@@ -4,7 +4,7 @@ namespace Twee\ServiceManager\Factory\Controller;
 
 use Interop\Container\ContainerInterface;
 use Twee\ServiceManager\Factory\Factory;
-use Zend\ServiceManager\Factory\AbstractFactoryInterface;
+use Laminas\ServiceManager\Factory\AbstractFactoryInterface;
 
 class AbstractFactoryController implements AbstractFactoryInterface
 {

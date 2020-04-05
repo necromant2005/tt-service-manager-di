@@ -3,7 +3,7 @@
 namespace Twee\ServiceManager\Factory\Controller\Plugin;
 
 use Twee\ServiceManager\Factory\DependencyInjection as FactoryDependencyInjection;
-use Zend\ServiceManager\ServiceLocatorInterface;
+use Laminas\ServiceManager\ServiceLocatorInterface;
 
 class DependencyInjection
 {

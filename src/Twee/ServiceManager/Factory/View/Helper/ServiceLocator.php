@@ -3,7 +3,7 @@
 namespace Twee\ServiceManager\Factory\View\Helper;
 
 use Twee\ServiceManager\Factory\ServiceLocator as FactoryServiceLocator;
-use Zend\ServiceManager\ServiceLocatorInterface;
+use Laminas\ServiceManager\ServiceLocatorInterface;
 
 class ServiceLocator
 {
